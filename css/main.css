@@ -4,7 +4,7 @@ body {
   background: #ffffff;
   color: #003F98;
   font-family: 'Open Sans', sans-serif;
-  line-height: 2;
+  line-height: 2.5;
   margin: 0;
 }
 
@@ -22,7 +22,7 @@ main {
   display: grid;
   text-align: center;
   grid-column-gap: 0.7em;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 35em;
   grid-auto-rows: 35em;
   grid-gap: 1.25em;
