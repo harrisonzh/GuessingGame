@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Guessing Game</title>
+</head>
+    
+<body onload="init()">
+    <main>
+        <section>
+            <img id="Girl" src="img/Girl_With_a_Pearl_Earring_sad.png" alt="Girl With a Pearl Earring Sad Face">
+        </section>
+        
+        <section>
+            <h1>Please guess a number from 1 to 100</h1>
+            <h2 id="textoutput">Tap a number and press "Enter" to guess!</h2>
+            <input type="number" id="inputBox" onchange="coldorhot()" min="1" max="100">
+            <p>tries: <span id="tries">0</span></p>
+            <p id="warning"></p>
+            <p id="response"></p>
+            <button onclick="restart()">Restart</button>
+        </section>
+        
+    </main>
+    
+    <script src="js/randomnumber.js"></script>
+    
+</body>
+</html>
