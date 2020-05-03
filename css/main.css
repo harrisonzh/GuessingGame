@@ -22,7 +22,7 @@ main {
   display: grid;
   text-align: center;
   grid-column-gap: 0.7em;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 35em;
   grid-auto-rows: 35em;
   grid-gap: 1.25em;
